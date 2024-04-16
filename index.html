@@ -55,13 +55,54 @@
 
     <footer> 
       <h4 id="#things to discuss"> Things to Discuss </h4>
+      
       <form action="/action_page.php">
-      <p>Which of the following didi you discuss?</p>
+      <p>Which of the following did you discuss?</p>
       <input type="radio" id="attendance" name="attendance" value="attendance">
       <label for="attendance">attendance</label><br>
       <input type="new business" id="new business" name="new business" value="new business">
       <label for="new business">new business</label><br>
-      <form onsubmit="alert('Submitted')">
+
+      <label for="browser">Choose your favorite color from the list:</label>
+      <input list="colors" name="colors" id="colors">
+      <datalist id="colors">
+      <option value="Pink">
+      <option value="Purple">
+      <option value="Blue">
+      <option value="Green">
+      <option value="Yellow">
+      </datalist>
+      <input type="submit">
+
+      <label for="programming languages">Choose a programming language:</label>
+
+      <select name="programming languages" id="programming languages">
+      <option value="java">Java</option>
+      <option value="C">C</option>
+      <option value="C++">C++</option>
+      <option value="Python">Python</option>
+      </select>
+     
+        <form>
+        <fieldset>
+    <legend>Choose your favorite member</legend>
+
+    <input type="radio" id="Emily" name="member" value="E" />
+    <label for="Emily">Emily</label><br />
+
+    <input type="radio" id="Eva" name="member" value="V" />
+    <label for="Eva">Eva</label><br />
+
+    <input type="radio" id="Eric" name="member" value="R" />
+    <label for="Eric">Eric</label>
+  </fieldset>
+       <textarea id="review" name="review" rows="4" cols="50">
+       My review on this lab: I actually found this lab quite interesting. I have never really learned HTML so it was fun to explore
+         and be able to create something using HTML.
+       </textarea>
+        
+        </form>
+        <form onsubmit="alert('Submitted')">
         <input type="text" placeholder="Enter things that need to be discussed: ">
         <button>Submit</button>
       </form>
