@@ -7,7 +7,8 @@
   <body>
     <header>
     <h1><strong>Meeting Topic: Brainstorming </strong></h1>
-    <h1> Date: 4/13/2024 </h1>
+    <label for="Date">Date:</label>
+    <input type="date" id="Date" name="Date" value="2024-04-13" />
     <link rel="icon" type="image/x-icon" href="/images/ABE38942-C78F-419D-8D12-18AB5DF7917F.png">
     <nav> 
     <ul>
@@ -38,7 +39,7 @@
       <h3><b>Task 1</b></h3>
       <details>
         <summary><em>Recap from <br> previous meeting</em></summary>
-        <p>Also go complete unfinished tasks from last meeting</p>
+        <p>Also complete unfinished tasks from last meeting</p>
       </details>
 
       <h3><b>Task 2</h3>
@@ -54,6 +55,12 @@
 
     <footer> 
       <h4 id="#things to discuss"> Things to Discuss </h4>
+      <form action="/action_page.php">
+      <p>Which of the following didi you discuss?</p>
+      <input type="radio" id="attendance" name="attendance" value="attendance">
+      <label for="attendance">attendance</label><br>
+      <input type="new business" id="new business" name="new business" value="new business">
+      <label for="new business">new business</label><br>
       <form onsubmit="alert('Submitted')">
         <input type="text" placeholder="Enter things that need to be discussed: ">
         <button>Submit</button>
