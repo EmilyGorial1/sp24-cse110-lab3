@@ -4,7 +4,7 @@
 /* class to make things pink*/
 .pink
 {
-  color=pink;
+  color = pink;
 }
 
 /*selector for body*/
@@ -16,7 +16,7 @@ body
 
 h1
 {
-  color =#FF0000;
+  color = #FF0000;
 }
 
 #discuss
@@ -26,8 +26,8 @@ h1
 }
 
 a[href= "*attendance"]
-  {
-    background color= yelow;
+  
+    background-color= yelow;
   }
 
 li, h4
@@ -46,7 +46,28 @@ a:hover
 
   header > section
   {
+  
   }
 
+ section + p
+{
+
+}
+
+select ~ form
+{
+
+}
+
+p:has(+ 3) {
+  margin-bottom: 0;
+}
+
+main {
+  /* parent rule style properties */
+  & section {
+    
+  }
+}
   
 
