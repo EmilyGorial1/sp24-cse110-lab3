@@ -1,14 +1,52 @@
 
+
+
+/* class to make things pink*/
 .pink
 {
   color=pink;
 }
 
+/*selector for body*/
 body
 {
+  background-color=rgb(255,255,224);
   
 }
 
 h1
 {
+  color =#FF0000;
 }
+
+#discuss
+{
+  text-align: center; 
+  color= hsl(170, 82%, 91%);
+}
+
+a[href= "*attendance"]
+  {
+    background color= yelow;
+  }
+
+li, h4
+  {
+  
+  }  
+a:hover 
+  {
+  color: hotpink;
+  }
+
+  
+  main li
+  {
+  }
+
+  header > section
+  {
+  }
+
+  
+
