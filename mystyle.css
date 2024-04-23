@@ -32,7 +32,7 @@ a[href= "*attendance"]
 
 li, h4
   {
-  
+    color: pink;
   }  
 a:hover 
   {
@@ -42,21 +42,22 @@ a:hover
   
   main li
   {
+     color: pink;
   }
 
   header > section
   {
-  
+     color: pink;
   }
 
  section + p
 {
-
+  color: pink;
 }
 
 select ~ form
 {
-
+  color: pink;
 }
 
 p:has(+ 3) {
@@ -64,9 +65,9 @@ p:has(+ 3) {
 }
 
 main {
-  /* parent rule style properties */
+  color: pink;
   & section {
-    
+    color: pink;
   }
 }
   
