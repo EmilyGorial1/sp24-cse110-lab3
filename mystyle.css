@@ -4,29 +4,29 @@
 /* class to make things pink*/
 .pink
 {
-  color = pink;
+  color: pink;
 }
 
 /*selector for body*/
 body
 {
-  background-color=rgb(255,255,224);
+  background-color: rgb(255,255,224);
 }
 
 h1
 {
-  color = #FF0000;
+  color: #FF0000;
 }
 
 #discuss
 {
   text-align: center; 
-  color= hsl(170, 82%, 91%);
+  color: hsl(170, 82%, 91%);
 }
 
 a[href= "*attendance"]
   
-    background-color= yelow;
+    background-color: yelow;
   }
 
 li, h4
