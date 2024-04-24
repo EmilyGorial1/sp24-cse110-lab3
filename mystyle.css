@@ -4,7 +4,7 @@
 /* class to make things blue*/
 .blue
 {
-  color: var(blue, green);
+  color: blue;
   border-color: none;
 }
 
@@ -68,7 +68,7 @@ a:hover
  section + p
 {
   color: red;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 select ~ form
