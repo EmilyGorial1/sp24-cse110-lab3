@@ -1,7 +1,7 @@
-
+/*defining a variable*/
 :root
 {
-  my-var: 12px;
+  --main-bg-color: orange;
 }
 
 /* class to make things blue*/
@@ -16,6 +16,7 @@ body
   background-color: rgb(255,255,224);
 }
 
+/*styling heading 1*/
 h1
 {
   text-align: center;
@@ -44,6 +45,7 @@ a[href= "*attendance"]
   background-color:color-mix(in lch, plum 40%, pink);
   }
 
+/*multiple selectors*/
 Task1, Task2, Task3
   {
     /* green*/
@@ -51,19 +53,21 @@ Task1, Task2, Task3
     display: block;
     
   }  
+/*turns hot pink when hovered over*/
 a:hover 
   {
   color: hotpink;
   text-decoration: underline;
   }
 
+/*third-party font*/
   main
 {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
 }
-  
+  /*styling list in main*/
   main li
   {
      color: brown;
@@ -74,6 +78,7 @@ a:hover
      position: static;
   }
 
+  /*styling sections that are children of main*/
   main > section
   {
      color: purple;
