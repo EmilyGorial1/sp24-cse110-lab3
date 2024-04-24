@@ -105,7 +105,6 @@ section:has(+ video) {
 main {
   
   padding: 10px;
-  color: var(my-var, blue);
   
   & section {
     
