@@ -5,7 +5,6 @@
 .blue
 {
   color: blue;
-  border-color: none;
 }
 
 /*selector for body*/
@@ -20,13 +19,14 @@ h1
   color: #5C4033;
   border-radius: 4px;
   border-width: 1px;
-  border-color: br(brown), blue;
+  border-color: var(brown), blue;
   border-style: dashed;
-  padding: 5px 10px
+  padding: 5px 10px;
   font-family: "Papyrus", Fantasy;
   font-size: 15pt;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 #discuss
@@ -39,13 +39,13 @@ h1
 
 a[href= "*attendance"]
   {
-  color: color-mix(method, color1[yellow], color2[white]);
+  color: color-mix(in lch, yellow, white);
   }
 
 Task1, Task2, Task3
   {
     /* green*/
-    color: color: rgb(92 64 51);
+    color: rgb(92 64 51);
     display: block;
     
   }  
@@ -67,8 +67,8 @@ a:hover
      color: brown;
      padding-top: 10px;
      padding-bottom: 10px;
-     padding-left: 10x;
-     padding-right: 10x;
+     padding-left: 10px;
+     padding-right: 10px;
      position: static;
   }
 
