@@ -34,6 +34,8 @@ h1
 {
   text-align: center; 
   color: hsl(170, 82%, 91%);
+  margin:0;
+  padding:0;
 }
 
 a[href= "*attendance"]
@@ -58,11 +60,19 @@ a:hover
   main li
   {
      color: brown;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 10x;
+     padding-right: 10x;
+     position: static;
   }
 
-  header > section
+  main > section
   {
      color: purple;
+     height: 3vw;
+     width: 2vw;
+     border: 2px solid;
   }
 
  section + p
@@ -95,6 +105,9 @@ video
   height: 7cm;
   min-width: 6cm;
   max-width: 11cm;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid;
 }
 
 /*for phones*/
