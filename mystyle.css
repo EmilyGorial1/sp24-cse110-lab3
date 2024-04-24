@@ -4,7 +4,7 @@
 /* class to make things blue*/
 .blue
 {
-  color: blue;
+  color: var(blue, green);
 }
 
 /*selector for body*/
@@ -26,13 +26,14 @@ h1
 }
 
 a[href= "*attendance"]
-  
-    background-color: yelow;
+  {
+  color: color-mix(method, color1[yellow], color2[white]);
   }
 
 li, h4
   {
-    color: green;
+    /* green*/
+    color: color: rgb(0 255 0);
   }  
 a:hover 
   {
