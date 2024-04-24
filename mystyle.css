@@ -89,7 +89,7 @@ select ~ form
   color: brown;
 }
 
-p:has(+ 3) {
+section:has(+ p) {
   background-color: orange;
 }
 
