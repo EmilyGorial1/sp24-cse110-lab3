@@ -38,16 +38,18 @@ li, h4
   {
     /* green*/
     color: color: rgb(0 255 0);
+    
   }  
 a:hover 
   {
   color: hotpink;
+  text-decoration: underline;
   }
 
   
   main li
   {
-     color: orange;
+     color: brown;
   }
 
   header > section
@@ -58,6 +60,7 @@ a:hover
  section + p
 {
   color: red;
+  font-size: 2em;
 }
 
 select ~ form
@@ -73,6 +76,8 @@ main {
   background-color: pink;
   & section {
     background-color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
 }
 
@@ -82,3 +87,23 @@ video
   height: 30cm;
 }
 
+/*for phones*/
+
+@media (max-width: 760 px)
+{
+  body
+  {
+    align-items: center;
+    font-size: 10px;
+    flex-direction: column;
+
+    video
+    {
+      max-width: 80%;
+    }
+
+    header
+    {
+      font-size: 12px;
+    }
+}
