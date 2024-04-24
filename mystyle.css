@@ -13,6 +13,7 @@ body
 {
   background-color: rgb(255,255,224);
   tetx-align: justify;
+  flex-wrap: wrap; 
 }
 
 h1
@@ -79,6 +80,7 @@ a:hover
 {
   color: red;
   font-size: 1em;
+  display:flex;
 }
 
 select ~ form
@@ -108,6 +110,7 @@ video
   margin-left: 5px;
   margin-right: 5px;
   border: 1px solid;
+  position: relative;
 }
 
 /*for phones*/
@@ -130,3 +133,11 @@ video
       font-size: 12px;
     }
 }
+
+button:active
+  {
+    color: purple;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 4cm;
+  }
