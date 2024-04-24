@@ -124,7 +124,6 @@ video
   {
     align-items: center;
     font-size: 10px;
-    flex-direction: column;
 
     video
     {
@@ -143,4 +142,9 @@ button:active
     cursor: pointer;
     border: 1px solid black;
     width: 4cm;
+  }
+
+footer
+  {
+    flex-direction: column;
   }
