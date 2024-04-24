@@ -5,12 +5,14 @@
 .blue
 {
   color: var(blue, green);
+  border-color: none;
 }
 
 /*selector for body*/
 body
 {
   background-color: rgb(255,255,224);
+  tetx-align: justify;
 }
 
 h1
@@ -18,9 +20,14 @@ h1
   text-align: center;
   color: #5C4033;
   border-radius: 4px;
+  border-width: 1px;
+  border-color: brown;
+  border-style: dashed;
   padding: 5px 10px
   font-family: "Papyrus", Fantasy;
   font-size: 15pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #discuss
@@ -34,10 +41,11 @@ a[href= "*attendance"]
   color: color-mix(method, color1[yellow], color2[white]);
   }
 
-li, h4
+Task1, Task2, Task3
   {
     /* green*/
-    color: color: rgb(0 255 0);
+    color: color: rgb(92 64 51);
+    display: inline-block;
     
   }  
 a:hover 
@@ -76,15 +84,17 @@ main {
   background-color: pink;
   & section {
     background-color: white;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     box-sizing: border-box;
   }
 }
 
 video
 {
-  width: 20cm;
-  height: 30cm;
+  width: 10cm;
+  height: 7cm;
+  min-width: 6cm;
+  max-width: 11cm;
 }
 
 /*for phones*/
