@@ -84,6 +84,7 @@ a:hover
      color: purple;
   }
 
+/*styling paragraphs that come after a section*/
  section + p
 {
   color: red;
@@ -95,10 +96,12 @@ select ~ form
   color: brown;
 }
 
+/*styling sections that have a video*/
 section:has(+ video) {
   background-color: orange;
 }
 
+/*nested selector*/
 main {
   
   padding: 10px;
@@ -110,6 +113,7 @@ main {
   }
 }
 
+/*styling the video*/
 video
 {
   width: 10cm;
@@ -143,6 +147,7 @@ video
     }
 }
 
+/*adjusting what happens when the button is clicked*/
 button:active
   {
     color: purple;
