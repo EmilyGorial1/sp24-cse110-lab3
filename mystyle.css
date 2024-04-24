@@ -17,6 +17,10 @@ h1
 {
   text-align: center;
   color: #5C4033;
+  border-radius: 4px;
+  padding: 5px 10px
+  font-family: "Papyrus", Fantasy;
+  font-size: 15pt;
 }
 
 #discuss
@@ -71,5 +75,10 @@ main {
     background-color: white;
   }
 }
-  
+
+video
+{
+  width: 20cm;
+  height: 30cm;
+}
 
